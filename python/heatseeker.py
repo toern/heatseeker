@@ -125,6 +125,7 @@ class ThermalImageApp(QMainWindow):
         self.thermal_data_fahrenheit = (self.thermal_data - 273.15) * 9/5 + 32
 
         # Set the min/max values for the spin boxes and the range slider
+        # TODO: add Celsius
         self.min_spinbox.setValue(self.thermal_data_fahrenheit.min())
         self.max_spinbox.setValue(self.thermal_data_fahrenheit.max())
         self.range_slider.setRange(self.thermal_data_fahrenheit.min(),
