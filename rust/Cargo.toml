@@ -1,0 +1,10 @@
+[package]
+name = "heatseeker"
+version = "0.1.0"
+edition = "2021"
+description = "A thermal image viewer for TC004 cameras - Rust/egui implementation"
+
+[dependencies]
+eframe = "0.31.1"
+image = "0.25.5"
+rfd = "0.15.2"
